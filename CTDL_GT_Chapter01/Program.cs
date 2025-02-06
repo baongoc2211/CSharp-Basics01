@@ -65,17 +65,17 @@ class Program
     //    Console.ReadKey();
     //}
     //Bài 3: Tính S(n) = 1 + ½ + 1/3 + … + 1/n
-    static void NhapN3(out int n)
-    {
-        while (true)
-        {
-            Console.Write(" Mời bạn nhập n: ");
-            n = int.Parse(Console.ReadLine());
-            if (n > 0) break;
-            Console.WriteLine("Bạn nhập sai, mời bạn nhập lại:");
-        }
-    }
-     static double TinhTong
+    //static void NhapN3(out int n)
+    //{
+    //    while (true)
+    //    {
+    //        Console.Write(" Mời bạn nhập n: ");
+    //        n = int.Parse(Console.ReadLine());
+    //        if (n > 0) break;
+    //        Console.WriteLine("Bạn nhập sai, mời bạn nhập lại:");
+    //    }
+    //}
+    // static double TinhTong
 
 
 }
